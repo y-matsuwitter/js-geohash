@@ -1,0 +1,16 @@
+<html>
+  <head>
+<script type="text/javascript" src="geohash.js"></script>
+<script type="text/javascript">
+var code=geohash.encode(12, -12);
+alert(code);
+alert(geohash.decode_exactly(code.substring(0,4)));
+alert(geohash.neighbors(code.substring(0,4)));
+alert(geohash.contain_expand(10,-10,code.substring(0,4)));
+</script>
+<title>test geohash</title>
+</head>
+<body>
+<h1>test geohash</h1>
+</body>
+</html>
