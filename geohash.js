@@ -1,7 +1,3 @@
-/*
-Copyright (C) 2009 Hiroaki Kawai <kawai@iij.ad.jp>
-*/
-
 var geohash;
 if(!geohash)geohash={};
 
